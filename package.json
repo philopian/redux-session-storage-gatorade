@@ -1,6 +1,6 @@
 {
   "name": "redux-session-storage-gatorade",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "redux middleware library that helps out in hydrating state from session storage",
   "main": "lib/index.js",
   "scripts": {},
