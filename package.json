@@ -1,8 +1,7 @@
 {
   "name": "redux-session-storage-gatorade",
   "version": "1.0.0",
-  "description":
-    "redux middleware library that helps out in hydrating state from session storage",
+  "description": "redux middleware library that helps out in hydrating state from session storage",
   "main": "lib/index.js",
   "scripts": {},
   "author": "Phil Willis <pdotwdot@gmail.com> (http://www.philwillis.pw/)",
@@ -10,10 +9,12 @@
     "type": "git",
     "url": "https://github.com/philopian/redux-session-storage-gatorade.git"
   },
-  "keywords": ["redux", "hydrate state", "session storage", "redux middleware"],
+  "keywords": [
+    "redux",
+    "hydrate state",
+    "session storage",
+    "redux middleware"
+  ],
   "license": "ISC",
-  "dependencies": {
-    "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0"
-  }
+  "dependencies": {}
 }

@@ -21,17 +21,13 @@ _Use session storage to store the state of your redux store so if the user refre
 ```js
 import { createStore, applyMiddleware } from "redux";
 import thunk from "redux-thunk";
-import {
-  hydrateStateFromSessionStorage,
-  gatorade
-} from "redux-session-storage-gatorade";
+import { hydrateState, gatorade } from "redux-session-storage-gatorade";
 
 import reducer from "../reducers";
 
 const store = createStore(
   reducer,
-
-  hydrateStateFromSessionStorage(), // 1. hydrate the store
+  hydrateState(), // 1. hydrate the store
   applyMiddleware(thunk, gatorade) // 2. Add gatorade
 );
 export default store;
